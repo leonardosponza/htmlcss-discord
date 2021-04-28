@@ -32,11 +32,6 @@ body
     top: 30%;
 }
 
-.logo:hover{
-    cursor: pointer;
-}
-
-
 .menu nav
 {
     text-align: center;
@@ -173,4 +168,9 @@ body
 .text p{
     font-size: 18px;
     font-weight: 700;
+}
+.row{
+    width: 100%;
+    text-align: center;
+    background-color:#f6f6f6;;
 }
