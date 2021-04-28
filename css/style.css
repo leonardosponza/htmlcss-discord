@@ -1,49 +1,152 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: darkslateblue;
-    height: 100px;
+
+
+body
+{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* header */
+.container
+{
+    height: 80px;
+    width: auto;
+    background-color: #255ee9;
     position: relative;
-    width: 100%;
+}
+
+
+.box
+{
+    margin: 0 80px;
+}
+
+.logo
+{
+    position: absolute;
+    top: 30%;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+.menu nav
+{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.menu nav ul li
+{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.menu nav ul li a
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.button 
+{
+    border-radius: 40px;
+    background-color: white;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    cursor: pointer;
+}
+
+/* fine header */
+
+
+
+
+
+
+/* jumbotron */
+
+.jumbotron
+{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position:relative
+}
+
+
+.jumbotron .corpo-centrale
+{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
-header nav{
-    width: 80%;
-    margin: 0 auto;
+
+
+.jumbotron .corpo-centrale .testo h1
+{
+    font-size: 50px;
+    margin-bottom: 20px;
 }
-.logo{
-    float: left;
-    vertical-align: middle;
-    margin: 30px;
+
+.jumbotron .corpo-centrale .testo p
+{
+    font-size: 18px;
+    line-height: 2;
 }
-li{
-    display: inline-block;
-    float: left;
-    margin-left: 50px;
-    color: white;
+
+
+.bottoni-corpo-white
+{
+    border-radius: 28px;
+    background-color: white;
+    padding: 16px 32px;
+    border: none;
     text-decoration: none;
-    text-transform: uppercase;
-    margin: 30px;
-    margin-top: 40px;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    bottom: 18%;
+    left: 35%;
+    cursor: pointer;
+    font-weight: bold;
 }
-.head{
-    float: left;
-    margin: 30px;
-    
+
+.bottoni-corpo-black
+{
+    border-radius: 28px;
+    background-color: black;
+    padding: 16px 32px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 48%;
+    cursor: pointer;
+    font-weight: bold;
 }
-.btn{
-    border-radius: 40%;
-    border-style: none;
-    height: 30px;
-    width: 60px; 
-}
-.jumbotron{
-    background-image: url(../img/jumbo.png);
-    height: 700px;
-    background-size: cover;
-    width: 100%;
-  
-}
+
+/* fine jumbotron */
