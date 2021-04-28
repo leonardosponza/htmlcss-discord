@@ -174,23 +174,3 @@ body
     font-size: 18px;
     font-weight: 700;
 }
-.main2
-{
-    position: relative;
-    padding: 60px 40px;
-    left: 50%;
-}
-.text2 
-{
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    width: 25%;
-}
-.text2 p{
-    font-size: 18px;
-    font-weight: 700;
-}
-.text2 h2{
-    font-size: 40px;   
-}
