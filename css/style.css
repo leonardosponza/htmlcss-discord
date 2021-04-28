@@ -22,22 +22,28 @@ header nav{
 li{
     display: inline-block;
     float: left;
-    margin: 30px;
     margin-left: 50px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 30px;
+    margin-top: 40px;
 }
 .head{
     float: left;
     margin: 30px;
-    margin-left: 100px;
+    
+}
+.btn{
+    border-radius: 40%;
+    border-style: none;
+    height: 30px;
+    width: 60px; 
 }
 .jumbotron{
     background-image: url(../img/jumbo.png);
-    height: 600px;
+    height: 700px;
     background-size: cover;
-    text-align: center;
     width: 100%;
   
 }
