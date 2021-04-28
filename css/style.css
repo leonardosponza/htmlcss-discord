@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: darkslateblue;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+header nav{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    vertical-align: middle;
+    margin: 30px;
+}
+li{
+    display: inline-block;
+    float: left;
+    margin: 30px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.head{
+    float: left;
+    margin: 30px;
+    margin-left: 100px;
+}
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+  
+}
